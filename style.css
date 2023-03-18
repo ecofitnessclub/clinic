@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .header {
     background-image: url(images/57953077_10041.png);
     width: 100vw;
