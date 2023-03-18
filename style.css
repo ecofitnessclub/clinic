@@ -19,6 +19,10 @@ body {
 
 }
 
+.owl-carousel {
+    display: none;
+}
+
 .filter {
     position: relative;
     top: 0;
@@ -294,5 +298,436 @@ a {
         width: 304px;
         height: 198px;
         margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 680px;
+
+        font-size: 45px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: 130px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 387px;
+
+        font-size: 25px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: -8px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 387px;
+
+        font-size: 25px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: -24px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 9px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 387px;
+
+        font-size: 25px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: -24px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 9px;
     }
 }

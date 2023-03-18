@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Клиника Германии</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4 2/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4 2/dist/assets/owl.theme.default.min.css"
+    />
   </head>
   <body>
     <div class="header">
@@ -21,6 +29,15 @@
       </div>
 
       <div class="block">
+        <div class="owl-carousel owl-theme">
+          <div class="item"><img src="images/2.png" alt="" /></div>
+          <div class="item">
+            <img src="images/3.png" alt="" srcset="" />
+          </div>
+          <div class="item">
+            <img src="images/4.png" alt="" srcset="" />
+          </div>
+        </div>
         <div class="left">
           <img src="images/2.png" alt="" />
           <p>
@@ -47,6 +64,15 @@
         </div>
 
         <div class="block">
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="images/5.png" alt="" /></div>
+            <div class="item">
+              <img src="images/6.png" alt="" srcset="" />
+            </div>
+            <div class="item">
+              <img src="images/7.png" alt="" srcset="" />
+            </div>
+          </div>
           <div class="left">
             <img src="images/5.png" alt="" />
             <p>
@@ -73,6 +99,15 @@
           <h1>3. Научно-Исследовательский институт Dein Arzt</h1>
         </div>
         <div class="block">
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="images/8.png" alt="" /></div>
+            <div class="item">
+              <img src="images/9.png" alt="" srcset="" />
+            </div>
+            <div class="item">
+              <img src="images/10.png" alt="" srcset="" />
+            </div>
+          </div>
           <div class="left">
             <img src="images/8.png" alt="" />
             <p>
@@ -103,6 +138,15 @@
       </div>
       <div class="block">
         <div class="punct">
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="images/11.png" alt="" /></div>
+            <div class="item">
+              <img src="images/12.png" alt="" srcset="" />
+            </div>
+            <div class="item">
+              <img src="images/13.png" alt="" srcset="" />
+            </div>
+          </div>
           <div class="top">
             <img class="four" src="images/11.png" alt="" />
             <img class="build" src="images/12.png" alt="" />
@@ -131,6 +175,15 @@
       </div>
       <div class="block">
         <div class="punct">
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="images/14.png" alt="" /></div>
+            <div class="item">
+              <img src="images/15.png" alt="" srcset="" />
+            </div>
+            <div class="item">
+              <img src="images/16.png" alt="" srcset="" />
+            </div>
+          </div>
           <div class="top">
             <img class="" src="images/14.png" alt="" />
             <img class="five" src="images/15.png" alt="" />
@@ -153,5 +206,21 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="OwlCarousel2-2.3.4 2/dist/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        items: 1,
+        dots: false,
+        autoplay: true,
+      });
+    </script>
   </body>
 </html>
