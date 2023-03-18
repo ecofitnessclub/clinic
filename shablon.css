@@ -160,3 +160,42 @@ body {
     position: relative;
     /* margin-top: -450px; */
 }
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+    .image {
+        background-position: 0 0;
+    }
+
+    .footer p {
+        width: 85%;
+    }
+
+    .middle {
+        width: 85%;
+    }
+
+    .footer ul {
+        width: 85%;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .image {
+        background-position: 0 0;
+    }
+
+    .footer p {
+        width: 90%;
+        margin-top: -530px;
+    }
+
+    .middle {
+        width: 90%;
+    }
+
+    .footer ul {
+        width: 90%;
+    }
+
+}

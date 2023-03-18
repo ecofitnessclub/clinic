@@ -208,3 +208,91 @@ body {
 a {
     text-decoration: none;
 }
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+
+    .header {
+        background-position-y: -170px;
+    }
+
+    .block {
+        width: 80%;
+    }
+
+    .img3 {
+        margin-left: 130px;
+    }
+
+    .build {
+
+        margin-left: 216px;
+        margin-top: -93px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 844px;
+
+        font-size: 55px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        width: 45%;
+        margin-left: 135px;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+}
